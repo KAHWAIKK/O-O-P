@@ -70,3 +70,10 @@ var user = {
 console.log(user);//console returns the object woith 2 properties(email and name) together with 2 other methods (login and logout function)
 
 console.log(user.login());//console returns kahwai has logged in
+
+/* ===UPDATING PROPERTIES IN THE OBJECT */
+
+user.name = "kevin";
+
+console.log(user);// it now prints out the name with kevin as the value of the property kevin
+
