@@ -269,4 +269,4 @@ console.log(users);// works as expected and returns our array with 6 items
 //trying to delete userTwo from our array
 console.log(admin2.login().deleteUser(userOne));
 
-console.log(users);//the console returns our array with 5 items, userOne has been deleted
+console.log(users);//the console returns our array with 5 items, userOne has been deleted 
